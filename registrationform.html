@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="registration.css">
+    </head>
+    <body>
+        <div>
+            <h1>User Registration</h1>
+            <p>Please complete the following form to register with our site:</p>
+
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label>Username:</label></td>
+                        <td><input type="text" id="uname" name="uname"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password:</label></td>
+                        <td><input type="password" id="pw" name="pw"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><label>Gender:</label></td>
+                        <td><input type="radio" id="male" name="gen">Male</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="female" name="gen">Female</td>
+                    </tr>
+                    <tr>
+                        <td><label>How did you hear about us?:</label></td>
+                        <td>
+                            <select>
+                                <option>Select an answer</option>
+                                <option>Another website</option>
+                                <option>Friends</option>
+                                <option>PrintAd</option>
+                                <option>Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Please select this box if you wish to be added to our mailing list. <br> We will not pass on your details to any third party.</label></td>
+                        <td><input type="checkbox" id="chk" name="chk"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="submit">Register now</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
